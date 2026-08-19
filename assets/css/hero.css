@@ -1,0 +1,17 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: end; 
+    height: 100vh;
+    padding-bottom: 7.5rem;
+
+    /* Через свойство ниже прописали две картинки в фон и задали для них размер */
+    background-image:
+    url("../images/dot.png"),
+    linear-gradient(to bottom, #050505, #090926 50%, #141313);
+    background-size: 8px, auto;
+}
+
+.hero-title {
+    
+}

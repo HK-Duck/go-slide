@@ -2,6 +2,7 @@
 @import "header.css";
 @import "nav.css";
 @import "btn.css";
+@import "hero.css";
 
 
 :root {
@@ -28,6 +29,7 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 1.6rem;
+    color: var(--primary);
 
     background-color: var(--primary);
 }
@@ -35,5 +37,16 @@ body {
 /* Для всех элементов и для всех псевдоэлементов ниже указано свойство */
 *, *::after, *::before {
     box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1410px;
+    margin: 0 auto;
+    padding: 0 3rem;
 }
 
