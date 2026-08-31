@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: flex-end; 
     height: 100vh;
+    max-height: 96.6rem;
     padding-bottom: 7.5rem;
 
     /* Через свойство ниже прописали две картинки в фон и задали для них размер */
@@ -14,6 +15,7 @@
 
 .hero-title {
     background-image: linear-gradient(to right, var(--pink-light), var(--pink-dark));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -30,18 +32,18 @@
 
 .hero-image {
     display: block;
-    margin: 0 auto;
+    margin: -53px auto 0;
     max-width: 100%;
     height: auto;
 
     position: relative;
-    top: -53px;
     z-index: 2;
 }
 
 .hero-text {
     display: flex;
     justify-content: space-between;
+    padding: 11.7rem;
 }
 
 .hero-list--right {
@@ -59,4 +61,11 @@
    font-weight: 800; 
    font-size: 3.2rem;
    color: var(--light);
+   letter-spacing: -3%;
+}
+
+.hero-footer {
+    margin-top: 8rem;
+
+    text-align: center;
 }
