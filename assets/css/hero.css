@@ -4,6 +4,7 @@
     justify-content: flex-end; 
     height: 100vh;
     max-height: 96.6rem;
+    width: auto;
     padding-bottom: 7.5rem;
 
     /* Через свойство ниже прописали две картинки в фон и задали для них размер */
@@ -24,7 +25,7 @@
     text-align: center;
     text-transform:uppercase;
     letter-spacing: -3%;
-    filter: drop-shadow (0 4px 40px rgba(0, 0, 0, 1));
+    filter: drop-shadow(0 4px 40px rgba(0, 0, 0, 1));
 
     position: relative;
     z-index: 1;
