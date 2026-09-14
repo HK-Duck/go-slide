@@ -3,7 +3,8 @@
 @import "nav.css";
 @import "btn.css";
 @import "hero.css";
-
+@import "section.css";
+@import "info.css";
 
 :root {
     --primary: #2C3038;
@@ -16,6 +17,8 @@
     --pink-dark: #A6002F;
 
     --header-z: 1000;
+
+    --letter-spacing: -3%;
 }
 
 html {
